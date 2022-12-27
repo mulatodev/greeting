@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @RestController
 public class GreetingController {
 
-    private static final String template = "Hola, %s!";
+    private static final String TEMPLATE = "Hola, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     //private String weather = "";
@@ -23,6 +23,6 @@ public class GreetingController {
         //WeatherExternalRestfulService accu = new WeatherExternalRestfulService();
         //weather = accu.GetLocationCodeByCityName("Bogotá");
 
-        return new Greeting(counter.incrementAndGet(), String.format(template, name));
+        return new Greeting(counter.incrementAndGet(), String.format(TEMPLATE, name));
     }
 }
