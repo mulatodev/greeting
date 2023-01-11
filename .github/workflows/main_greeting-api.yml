@@ -55,4 +55,4 @@ jobs:
           app-name: 'greeting-api'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C0C8528FFFA34EB2867D47F32E26BA65 }}
-          package: '*.jar'
+          package: 'greeting-0.0.1.jar'
