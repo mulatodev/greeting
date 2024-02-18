@@ -1,9 +1,9 @@
-package xyz.mulatodev.greeting.Controller;
+package com.mulatodev.greeting.controller;
 
+import com.mulatodev.greeting.model.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import xyz.mulatodev.greeting.model.Greeting;
 //import xyz.mulatodev.greeting.utils.WeatherExternalRestfulService;
 
 import java.util.concurrent.atomic.AtomicLong;
@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @RestController
 public class GreetingController {
 
-    private static final String TEMPLATE = "Hola, %s!";
+    private static final String TEMPLATE = "Welcome, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     //private String weather = "";
