@@ -1,4 +1,4 @@
-package xyz.mulatodev.greeting.utils;
+package com.mulatodev.greeting.utils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

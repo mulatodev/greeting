@@ -1,4 +1,4 @@
-package xyz.mulatodev.greeting;
+package com.mulatodev.greeting;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

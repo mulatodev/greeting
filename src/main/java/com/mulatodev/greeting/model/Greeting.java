@@ -1,4 +1,4 @@
-package xyz.mulatodev.greeting.model;
+package com.mulatodev.greeting.model;
 
 public class Greeting {
     private final long id;
